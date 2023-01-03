@@ -4,10 +4,10 @@ export const Wrapper = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px solid #4a4e69;
+  border: 1px solid ${({ theme }) => theme.colors.tertiary};
   border-radius: 4px;
-  background-color: #4a4e69;
-  color: #f2e9e4;
+  background-color: ${({ theme }) => theme.colors.tertiary};
+  color: ${({ theme }) => theme.colors.bg};
   justify-content: space-between;
   overflow: hidden;
   align-items: center;
@@ -43,14 +43,14 @@ export const Figure = styled.figure`
 
 export const Button = styled.button`
   border: 0;
-  background-color: #22223b;
+  background-color: ${({ theme }) => theme.colors.dark};
   padding: 8px 16px;
   border-radius: 4px;
-  color: #f2e9e4;
+  color: ${({ theme }) => theme.colors.bg};
   cursor: pointer;
   transition: all 0.5s;
 
   &:hover {
-    background-color: #9a8c98;
+    background-color: ${({ theme }) => theme.colors.secondary};
   }
 `;

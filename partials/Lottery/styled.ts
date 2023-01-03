@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
@@ -20,12 +19,12 @@ export const NumbersWrapper = styled.div`
   margin-top: 30px 0;
   grid-gap: 20px;
   min-height: 60px;
-  border-radius:4px ;
+  border-radius: 4px;
 `;
 
 export const Number = styled.span`
-  background-color: #746ab0;
-  color: #fff;
+  background-color: ${({ theme }) => theme.colors.dark};
+  color: ${({ theme }) => theme.colors.white};
   font-weight: bold;
   min-width: 60px;
   min-height: 60px;
@@ -49,19 +48,17 @@ export const Input = styled.input`
 
 export const Button = styled.button`
   padding: 8px 14px;
-  background-color: #2f3e46;
+  background-color: ${({ theme }) => theme.colors.button.default};
   border: 0;
-  color: #fff;
+  color: ${({ theme }) => theme.colors.white};
   border-radius: 0 16px 16px 0;
   cursor: pointer;
-  transition: all .5s;
+  transition: all 0.5s;
 
-  &:hover{
-    background-color: #52796f;
-
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.button.hover};
   }
 `;
-
 
 export const ErrorMessage = styled.span<IError>`
   color: #fff;

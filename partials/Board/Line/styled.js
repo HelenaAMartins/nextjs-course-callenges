@@ -1,16 +1,16 @@
 import styled, { css } from "styled-components";
 
 const blackLine = css`
-  background-color: #fff;
+  background-color: ${({ theme }) => theme.colors.white};
   &:nth-child(odd) {
-    background-color: #000;
+    background-color: ${({ theme }) => theme.colors.black};
   }
 `;
 
 const whiteLine = css`
-  background-color: #000;
+  background-color: ${({ theme }) => theme.colors.black};
   &:nth-child(odd) {
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.colors.white};
   }
 `;
 

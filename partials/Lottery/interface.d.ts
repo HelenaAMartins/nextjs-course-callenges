@@ -1,6 +1,3 @@
-
-
 interface IError {
-  visible: boolean
-
+  visible: boolean;
 }

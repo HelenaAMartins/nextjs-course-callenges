@@ -3,8 +3,10 @@ import BackHome from "../components/BackHome";
 import Button from "../components/Button";
 import Container from "../components/Container";
 import Layout from "../components/Layout";
+import { useTheme } from "styled-components";
 
 export default function Counter() {
+  const theme = useTheme();
   const [counter, setCounter] = useState(0);
   const [message, setMessage] = useState("");
 
@@ -42,7 +44,7 @@ export default function Counter() {
             </Button>
           </div>
           {counter === 10 && (
-            <span style={{ color: "#9b2226" }}>{message}</span>
+            <span style={{ color: theme.colors.danger }}>{message}</span>
           )}
           <BackHome />
         </div>
