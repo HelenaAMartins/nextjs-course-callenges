@@ -1,0 +1,6 @@
+
+
+interface IError {
+  visible: boolean
+
+}
