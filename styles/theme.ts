@@ -1,16 +1,16 @@
 export const theme = {
   colors: {
-    bg: "#f2e9e4",
-    primary: "#c9ada7",
-    secondary: "#9a8c98",
-    tertiary: "#4a4e69",
-    dark: "#22223b",
+    bg: "#0b0c10",
+    primary: "#1f2833",
+    secondary: "#c5c6c7",
+    tertiary: "#66fcf1",
+    dark: "#45a29e",
     danger: "#9b2226",
     black: "#000",
     white: "#fff",
     button: {
-      default: "#5e548e",
-      hover: "#231942",
+      default: "#45a29e",
+      hover: "#66fcf1",
     },
   },
 };

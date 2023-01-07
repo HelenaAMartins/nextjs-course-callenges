@@ -1,10 +1,11 @@
-import Link from "next/link";
+import { HomeIcon } from "../../Icons";
 import * as Styled from "./styled";
 
 const BackHome = () => (
-  <Styled.LinkWrapper>
-    <Link href="/">Back Home</Link>
-  </Styled.LinkWrapper>
+  <Styled.Link href="/">
+    <HomeIcon />
+    Home
+  </Styled.Link>
 );
 
 export default BackHome;

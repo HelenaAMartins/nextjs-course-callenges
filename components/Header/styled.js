@@ -1,15 +1,22 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  padding: 80px 24px;
   text-align: center;
+  padding: 40px 12px;
+
+  @media screen and (min-width: 768px) {
+    padding: 80px 24px;
+  }
 `;
 
 export const Title = styled.h1`
-  color: #22223b;
-  font-size: 45px;
-
+  color: #fff;
+  font-size: 20px;
   a {
     text-decoration: underline;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
   }
 `;

@@ -16,7 +16,7 @@ export const Title = styled.h1`
 
 export const NumbersWrapper = styled.div`
   display: flex;
-  margin-top: 30px 0;
+  margin: 20px 0 30px;
   grid-gap: 20px;
   min-height: 60px;
   border-radius: 4px;

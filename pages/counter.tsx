@@ -44,7 +44,11 @@ export default function Counter() {
             </Button>
           </div>
           {counter === 10 && (
-            <span style={{ color: theme.colors.danger }}>{message}</span>
+            <span
+              style={{ color: theme.colors.tertiary, marginBottom: "30px" }}
+            >
+              {message}
+            </span>
           )}
           <BackHome />
         </div>

@@ -4,14 +4,15 @@ export const Wrapper = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px solid ${({ theme }) => theme.colors.tertiary};
+  border: 1px solid ${({ theme }) => theme.colors.secondary};
   border-radius: 4px;
-  background-color: ${({ theme }) => theme.colors.tertiary};
+  background-color: ${({ theme }) => theme.colors.secondary};
   color: ${({ theme }) => theme.colors.bg};
   justify-content: space-between;
   overflow: hidden;
   align-items: center;
   padding-bottom: 30px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
 `;
 
 export const InfoWrapper = styled.div`
@@ -43,14 +44,14 @@ export const Figure = styled.figure`
 
 export const Button = styled.button`
   border: 0;
-  background-color: ${({ theme }) => theme.colors.dark};
+  background-color: ${({ theme }) => theme.colors.button.default};
   padding: 8px 16px;
   border-radius: 4px;
-  color: ${({ theme }) => theme.colors.bg};
+  color: ${({ theme }) => theme.colors.white};
   cursor: pointer;
   transition: all 0.5s;
 
   &:hover {
-    background-color: ${({ theme }) => theme.colors.secondary};
+    background-color: ${({ theme }) => theme.colors.primary};
   }
 `;

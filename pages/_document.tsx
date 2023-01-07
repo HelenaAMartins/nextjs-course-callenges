@@ -11,7 +11,7 @@ export default function Document() {
         crossOrigin="true"
       />
       <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Ubuntu:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Ubuntu:wght@400;700&family=Press+Start+2P&family=Carter+One&display=swap"
         rel="stylesheet"
       />
       <body>
