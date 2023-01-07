@@ -1,5 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "partials": [
+        "partials"
+      ],
+      "components": [
+        "components"
+      ]
+    },
     "target": "es6",
     "lib": [
       "dom",
@@ -18,15 +27,6 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true
-  },
-  "baseUrl": ".",
-  "paths": {
-    "partials": [
-      "partials"
-    ],
-    "components": [
-      "components"
-    ]
   },
   "include": [
     "next-env.d.ts",

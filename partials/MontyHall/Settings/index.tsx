@@ -1,5 +1,4 @@
 import BackHome from "components/BackHome";
-import { HomeIcon } from "../../../Icons";
 import * as Styled from "./styled";
 
 const Settings = ({
